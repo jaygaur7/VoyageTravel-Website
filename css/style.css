@@ -1,0 +1,38 @@
+.navbar{
+  background-color: transparent;
+  box-shadow: 0px 2px 20px #f3ebeb;
+  transition: background-color 1s ease 0s;
+}
+.navbar-solid{
+  transition: background-color 1s ease 0s;
+}
+.collapse-content .fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+.features .card{
+  box-shadow: 0px 1px 20px #242222;
+}
+.footer .icons:hover {
+	color: #64bb5d;
+}
+.banner .banner-heighlights{
+  color: darkgoldenrod;
+}
+.banner .banner-heighlights:hover{
+  color: rgb(240, 217, 17);
+}
+
+.footer .icons:hover:before {
+	animation: spinAround 2s linear infinite;
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,27 @@
+.navbar{
+  background-color: transparent;
+  box-shadow: 0px 1px 20px #e6dddd;
+  transition: background-color 1s ease 0s;
+}
+.navbar-solid{
+  transition: background-color 1s ease 0s;
+}
+
+.footer .icons:hover {
+	color: #64bb5d;
+}
+
+.footer .icons:hover:before {
+	animation: spinAround 2s linear infinite;
+}
+.features{
+  background: rgb(202, 198, 198);
+}
+@keyframes spinAround {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

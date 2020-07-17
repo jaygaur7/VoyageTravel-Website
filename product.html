@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage website</title>
+  
+    <!-- bootstrap 4.4.1 --> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/6f9e103807.js" crossorigin="anonymous"></script>
+  
+  <!--css-->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./assets/script.js"></script>
+
+  <!--mdn-->
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="features p-3  peach-gradient text-center">
+      <h1 class="my-5">Feature Section</h1>
+      <a href="./product.html" class="float-lg-center text-light-blue darken-4"> View All</a>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img class="rounded img-fluid card-img-bottom" src="../webapp/images/paris.webp" alt="coding">
+              <div class="card-body">
+                <p class="text-warning">$80</p>
+              </div>
+              <div class="rating">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star-half-o" aria-hidden="true"></i>
+              </div>
+              <div class="card-title"><h3>Paris</h3></div>
+              <div class="collapse-content">
+  
+                <!-- Text -->
+                <p class="card-text collapse" id="collapseContent1">Paris, France's capital, is a major European city and a global center for art, known for world best fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                <!-- Button -->
+                <a class="btn btn-flat text-danger float-left collapsed p-2 my-1 mr-0 " data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                <i class="fas fa-heart text-muted float-right p-2  mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+              </div>
+  
+              <div class="card-footer bg-dark text-light">
+                <span><i class="fa fa-map-marker"></i>Paris</span>
+                <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                <span><i class="fa fa-moon-o"></i>2 Night</span>
+              </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4 mb-5">
+              <div class="card">
+                <img class="rounded img-fluid card-img-bottom" src="../webapp/images/switzerland.jpeg" alt="coding">
+                <div class="card-body">
+                  <p class="text-warning">$85</p>
+                </div>
+                <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" ></i>
+                </div>
+                <div class="card-title"><h3>Switzerland</h3></div>
+   
+                <div class="collapse-content">
+  
+                  <!-- Text -->
+                  <p class="card-text collapse" id="collapseContent2">One of the best things about Switzerland is all the beautiful nature. Many tourists flock to Switzerland each year just to enjoy the Alps.They are one of the world’s most beautiful mountain ranges.</p>
+                  <!-- Button -->
+                  <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                  <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                  <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                </div>
+  
+                <div class="card-footer bg-dark text-light">
+                  <span><i class="fa fa-map-marker"></i>Swiz</span>
+                  <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                  <span><i class="fa fa-moon-o"></i>2 Night</span>
+                </div>
+                </div>
+              </div>
+  
+       
+              <div class="col-md-4 mb-5">
+                <div class="card">
+                  <img class="rounded img-fluid card-img-bottom" src="../webapp/images/malaysia.jpeg" alt="coding">
+                  <div class="card-body">
+                    <p class="text-warning">$80</p>
+                  </div>
+                  <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                  </div>
+                  <div class="card-title"><h3>Malaysia</h3>
+                  </div>
+                  
+                  <div class="collapse-content">
+  
+                    <!-- Text -->
+                    <p class="card-text collapse" id="collapseContent3">Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                    <!-- Button -->
+                    <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                    <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                    <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+              
+                  </div>
+  
+                <!--  <div class="card-text">
+                    <p>Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                  </div>
+                  -->
+                  <div class="card-footer bg-dark text-light">
+                    <span><i class="fa fa-map-marker"></i>Malaysia</span>
+                    <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                    <span><i class="fa fa-moon-o"></i>2 Night</span>
+                  </div>
+                  </div>
+                </div>
+  
+           </div>
+
+           <!--2-->
+           <div class="row">
+            <div class="col-md-4 mb-5">
+              <div class="card">
+                <img class="rounded img-fluid card-img-bottom" src="../webapp/images/paris.webp" alt="coding">
+                <div class="card-body">
+                  <p class="text-warning">$80</p>
+                </div>
+                <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+                <div class="card-title"><h3>Paris</h3></div>
+                <div class="collapse-content">
+    
+                  <!-- Text -->
+                  <p class="card-text collapse" id="collapseContent1">Paris, France's capital, is a major European city and a global center for art, known for world best fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                  <!-- Button -->
+                  <a class="btn btn-flat text-danger float-left collapsed p-2 my-1 mr-0 " data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                  <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                  <i class="fas fa-heart text-muted float-right p-2  mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                </div>
+    
+                <div class="card-footer bg-dark text-light">
+                  <span><i class="fa fa-map-marker"></i>Paris</span>
+                  <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                  <span><i class="fa fa-moon-o"></i>2 Night</span>
+                </div>
+                </div>
+              </div>
+              
+              <div class="col-md-4 mb-5">
+                <div class="card">
+                  <img class="rounded img-fluid card-img-bottom" src="../webapp/images/switzerland.jpeg" alt="coding">
+                  <div class="card-body">
+                    <p class="text-warning">$85</p>
+                  </div>
+                  <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" ></i>
+                  </div>
+                  <div class="card-title"><h3>Switzerland</h3></div>
+     
+                  <div class="collapse-content">
+    
+                    <!-- Text -->
+                    <p class="card-text collapse" id="collapseContent2">One of the best things about Switzerland is all the beautiful nature. Many tourists flock to Switzerland each year just to enjoy the Alps.They are one of the world’s most beautiful mountain ranges.</p>
+                    <!-- Button -->
+                    <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                    <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                    <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                  </div>
+    
+                  <div class="card-footer bg-dark text-light">
+                    <span><i class="fa fa-map-marker"></i>Swiz</span>
+                    <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                    <span><i class="fa fa-moon-o"></i>2 Night</span>
+                  </div>
+                  </div>
+                </div>
+    
+         
+                <div class="col-md-4 mb-5">
+                  <div class="card">
+                    <img class="rounded img-fluid card-img-bottom" src="../webapp/images/malaysia.jpeg" alt="coding">
+                    <div class="card-body">
+                      <p class="text-warning">$80</p>
+                    </div>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" ></i>
+                      <i class="fa fa-star-o" ></i>
+                    </div>
+                    <div class="card-title"><h3>Malaysia</h3>
+                    </div>
+                    
+                    <div class="collapse-content">
+    
+                      <!-- Text -->
+                      <p class="card-text collapse" id="collapseContent3">Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                      <!-- Button -->
+                      <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                      <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                      <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                
+                    </div>
+    
+                  <!--  <div class="card-text">
+                      <p>Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                    </div>
+                    -->
+                    <div class="card-footer bg-dark text-light">
+                      <span><i class="fa fa-map-marker"></i>Malaysia</span>
+                      <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                      <span><i class="fa fa-moon-o"></i>2 Night</span>
+                    </div>
+                    </div>
+                  </div>
+    
+             </div>
+             <!--third card-->
+             <div class="row">
+              <div class="col-md-4 mb-5">
+                <div class="card">
+                  <img class="rounded img-fluid card-img-bottom" src="../webapp/images/paris.webp" alt="coding">
+                  <div class="card-body">
+                    <p class="text-warning">$80</p>
+                  </div>
+                  <div class="rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="card-title"><h3>Paris</h3></div>
+                  <div class="collapse-content">
+      
+                    <!-- Text -->
+                    <p class="card-text collapse" id="collapseContent1">Paris, France's capital, is a major European city and a global center for art, known for world best fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                    <!-- Button -->
+                    <a class="btn btn-flat text-danger float-left collapsed p-2 my-1 mr-0 " data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                    <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                    <i class="fas fa-heart text-muted float-right p-2  mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                  </div>
+      
+                  <div class="card-footer bg-dark text-light">
+                    <span><i class="fa fa-map-marker"></i>Paris</span>
+                    <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                    <span><i class="fa fa-moon-o"></i>2 Night</span>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md-4 mb-5">
+                  <div class="card">
+                    <img class="rounded img-fluid card-img-bottom" src="../webapp/images/switzerland.jpeg" alt="coding">
+                    <div class="card-body">
+                      <p class="text-warning">$85</p>
+                    </div>
+                    <div class="rating">
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star" aria-hidden="true"></i>
+                      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" ></i>
+                    </div>
+                    <div class="card-title"><h3>Switzerland</h3></div>
+       
+                    <div class="collapse-content">
+      
+                      <!-- Text -->
+                      <p class="card-text collapse" id="collapseContent2">One of the best things about Switzerland is all the beautiful nature. Many tourists flock to Switzerland each year just to enjoy the Alps.They are one of the world’s most beautiful mountain ranges.</p>
+                      <!-- Button -->
+                      <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                      <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                      <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                    </div>
+      
+                    <div class="card-footer bg-dark text-light">
+                      <span><i class="fa fa-map-marker"></i>Swiz</span>
+                      <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                      <span><i class="fa fa-moon-o"></i>2 Night</span>
+                    </div>
+                    </div>
+                  </div>
+      
+           
+                  <div class="col-md-4 mb-5">
+                    <div class="card">
+                      <img class="rounded img-fluid card-img-bottom" src="../webapp/images/malaysia.jpeg" alt="coding">
+                      <div class="card-body">
+                        <p class="text-warning">$80</p>
+                      </div>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" ></i>
+                        <i class="fa fa-star-o" ></i>
+                      </div>
+                      <div class="card-title"><h3>Malaysia</h3>
+                      </div>
+                      
+                      <div class="collapse-content">
+      
+                        <!-- Text -->
+                        <p class="card-text collapse" id="collapseContent3">Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                        <!-- Button -->
+                        <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                        <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                        <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                  
+                      </div>
+      
+                    <!--  <div class="card-text">
+                        <p>Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                      </div>
+                      -->
+                      <div class="card-footer bg-dark text-light">
+                        <span><i class="fa fa-map-marker"></i>Malaysia</span>
+                        <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                        <span><i class="fa fa-moon-o"></i>2 Night</span>
+                      </div>
+                      </div>
+                    </div>
+      
+               </div>
+               <!--fourth card-->
+               <div class="row">
+                <div class="col-md-4 mb-5">
+                  <div class="card">
+                    <img class="rounded img-fluid card-img-bottom" src="../webapp/images/paris.webp" alt="coding">
+                    <div class="card-body">
+                      <p class="text-warning">$80</p>
+                    </div>
+                    <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="card-title"><h3>Paris</h3></div>
+                    <div class="collapse-content">
+        
+                      <!-- Text -->
+                      <p class="card-text collapse" id="collapseContent1">Paris, France's capital, is a major European city and a global center for art, known for world best fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                      <!-- Button -->
+                      <a class="btn btn-flat text-danger float-left collapsed p-2 my-1 mr-0 " data-toggle="collapse" href="#collapseContent1" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                      <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                      <i class="fas fa-heart text-muted float-right p-2  mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                    </div>
+        
+                    <div class="card-footer bg-dark text-light">
+                      <span><i class="fa fa-map-marker"></i>Paris</span>
+                      <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                      <span><i class="fa fa-moon-o"></i>2 Night</span>
+                    </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-4 mb-5">
+                    <div class="card">
+                      <img class="rounded img-fluid card-img-bottom" src="../webapp/images/switzerland.jpeg" alt="coding">
+                      <div class="card-body">
+                        <p class="text-warning">$85</p>
+                      </div>
+                      <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" ></i>
+                      </div>
+                      <div class="card-title"><h3>Switzerland</h3></div>
+         
+                      <div class="collapse-content">
+        
+                        <!-- Text -->
+                        <p class="card-text collapse" id="collapseContent2">One of the best things about Switzerland is all the beautiful nature. Many tourists flock to Switzerland each year just to enjoy the Alps.They are one of the world’s most beautiful mountain ranges.</p>
+                        <!-- Button -->
+                        <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent2" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                        <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                        <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                      </div>
+        
+                      <div class="card-footer bg-dark text-light">
+                        <span><i class="fa fa-map-marker"></i>Swiz</span>
+                        <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                        <span><i class="fa fa-moon-o"></i>2 Night</span>
+                      </div>
+                      </div>
+                    </div>
+        
+             
+                    <div class="col-md-4 mb-5">
+                      <div class="card">
+                        <img class="rounded img-fluid card-img-bottom" src="../webapp/images/malaysia.jpeg" alt="coding">
+                        <div class="card-body">
+                          <p class="text-warning">$80</p>
+                        </div>
+                        <div class="rating">
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star" aria-hidden="true"></i>
+                          <i class="fa fa-star-o" ></i>
+                          <i class="fa fa-star-o" ></i>
+                        </div>
+                        <div class="card-title"><h3>Malaysia</h3>
+                        </div>
+                        
+                        <div class="collapse-content">
+        
+                          <!-- Text -->
+                          <p class="card-text collapse" id="collapseContent3">Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                          <!-- Button -->
+                          <a class="btn btn-flat text-danger float-left p-2 my-1 mr-0 collapsed" data-toggle="collapse" href="#collapseContent3" aria-expanded="false" aria-controls="collapseContent"> Read More</a>
+                          <i class="fas fa-share-alt text-muted float-right mx-2 p-2 my-1" data-toggle="tooltip" data-placement="top" title="Share this post"></i>
+                          <i class="fas fa-heart text-muted float-right p-2 my-1 mx-2 my-1" data-toggle="tooltip" data-placement="top" title="I like it"></i>
+                    
+                        </div>
+        
+                      <!--  <div class="card-text">
+                          <p>Malaysia is a country whose cultures and attributes transcend its geographical location. Although situated in the heart of Southeast Asia, Malaysia today is a fusion of colonial memories,indigenous ways of life.</p>
+                        </div>
+                        -->
+                        <div class="card-footer bg-dark text-light">
+                          <span><i class="fa fa-map-marker"></i>Malaysia</span>
+                          <span><i class="fa fa-sun-o"></i>3 Days</span> 
+                          <span><i class="fa fa-moon-o"></i>2 Night</span>
+                        </div>
+                        </div>
+                      </div>
+        
+                 </div>
+        </div>
+    </section>
+    
+</body>
+</html>
